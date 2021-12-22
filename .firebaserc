@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "coinsburg-37afa",
+    "testing": "coinsburg-37afa"
+  },
+  "targets": {
+    "coinsburg-37afa": {
+      "hosting": {
+        "coinsburg": [
+          "coinsburg"
+        ]
+      }
+    }
+  }
+}

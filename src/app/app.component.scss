@@ -4,6 +4,52 @@ P{
 .app{
     background: #1B1464;
 }
+.faqbox{
+    display: flex;align-items: center;justify-content: space-between;background: white;
+}
+.vee{
+    margin-right: 2rem;
+}
+.illust{
+    color: #140F4B;margin-top: 13rem;margin-left: 1rem;
+    font-size: 3rem;
+}
+.freq{
+    font-size: 3rem;
+    width:160%
+}
+
+.end{
+    font-weight: 300; font-size: small
+}
+.endmain{
+    margin-top: 10rem;
+   
+}
+.end2{
+    width:200px; margin-left: 16rem;
+   
+
+}
+.end3{
+    width:200px; margin-left: 3rem;
+   
+}
+.quoteflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.twitter{
+    width:6%
+}
+.start{
+    font-size: 3rem;
+}
+.startdiv{
+    color: white; text-align: center;margin-top: -18rem;
+}
+
 .navbar,.nav_group{
     background: #1B1464;
     color: white;
@@ -19,6 +65,32 @@ P{
     margin: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
+}
+.quote{
+    background-color: white; margin-top: -4rem; padding-top: 12rem; padding-bottom: 12rem; 
+}
+.quotehead{
+    color: black;text-align: center;font-size: large; font-weight: 350;
+}
+
+.quotegrid{
+    align-items: center;justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.otc{
+    background: #F6F9FC;margin-top: -20rem;
+}
+.otc2{
+    margin-left: -4rem;
+}
+
+
+.otcline1{
+    font-size: 3rem;
+}
+.otcline2{
+    font-size:20px;color: #81838C;
 }
 .nav_item_login{
     background: #575099;
@@ -38,6 +110,7 @@ P{
     text-align: center;
 }
 .table{
+
     margin-bottom: 8rem;
    margin-top: 4rem;
   display: flex;
@@ -58,20 +131,23 @@ P{
     
     flex-direction: column;
  
-    // padding-top: 4rem;
-    // padding-bottom: 4rem;
-    // padding-left: 8rem;
-    // padding-right: 8rem;
+   
 }
 .row1{
     margin-bottom: -3rem;
     font-weight: 500;
+}
+.clrbg{
+    width: 100%;
 }
 .row2{
  
     border-radius: 20px;
     background: #4610AD;
 
+}
+.tablemain{
+    font-weight: 650; font-size: 30px;
 }
 .row,.row1,.row2{
  
@@ -100,11 +176,13 @@ P{
     color: #8D38EE;
     font-weight: 600;
     cursor: pointer;
+    background: white;
   
 }
 .mainbox{
     border: dashed 2px #D9E4EF;
     width: 60%;
+    margin-left: 20rem;
 }
 .quest{
     font-size: 17px;
@@ -119,3 +197,993 @@ P{
 .vector{
     margin-left: 22rem;
 }
+.herodiv{
+    display: flex;font-size: 25px;font-weight: bolder;
+}
+.herobuy{
+    color: #EE1EC0;display: flex;flex-direction: column;align-items: center;margin-left: 3rem;
+}
+.herosell{
+    color: #aaa9a9;;margin-left: 9rem;
+}
+.herodots{
+    margin-left: 9rem;margin-bottom: -2rem;
+}
+.heroinputmain{
+    display:flex;flex-direction: column;justify-content: center;align-items: center;
+}
+.heroinputdiv{
+    display: flex;justify-content: space-around;align-items: center;width: 90%;border-radius: 6px;box-shadow: 1px 0px 5px rgb(216, 215, 215);
+}
+.heroinput{
+    margin-right: 6rem;
+}
+.heroinputt{
+    padding-top: 1rem;padding-bottom: 1rem;outline: none;border: none;font-size: 16px;font-weight: bolder;color: #424242
+}
+.h1{
+   
+  font-size: 3rem;
+}
+.trade{
+    font-size: 2rem;
+}
+.heroinput3{
+    margin-right: 9.9rem;
+}
+.ETHimg{
+    width:70%;
+}
+.heroinputbutton{
+    border-radius: 9px;color: white;background: #EE1EC0;font-size: 18px;font-weight: bold; border: none;padding: 1.3rem;cursor: pointer;
+}
+.heroinputt3{
+    padding-top: .5rem;padding-bottom: .5rem;outline: none;border: none;font-size: 16px;font-weight: bolder;color: #424242
+}
+.heroposter{
+    margin-top: 5rem;width:77%;background:#FFFFFF; border-radius: 12px;padding: 1rem;
+}
+
+.grid{
+    display: flex;
+    padding-left: 5rem;
+}
+
+.gridtwo{
+    
+    width:60%;
+    
+}
+@media screen and (max-width:1169px) {
+    .illust{
+        color: #140F4B;margin-top: 13rem;margin-left: 1rem;
+        font-size: 2rem;
+    }
+    .freq{
+        font-size: 2rem;
+    }
+    .gridtwotable{
+        width:90%;
+        margin-left: 1rem;
+
+    }
+    
+}
+@media screen and (max-width:851px) {
+    .illust{
+        margin-top: 8rem;margin-left: 4rem;
+        font-size: 2.5rem;
+    }
+    .freq{
+        font-size: 2rem;
+        width:300%;
+    }
+    .gridtwotable{
+        width:150%;
+        // border:2px solid red
+      
+
+    }
+    .gridtwo{
+     
+        
+    }
+    
+}
+@media screen and (max-width:530px) {
+  
+    .gridtwo{
+        margin-left: -3rem;
+        
+      }
+ 
+    .freq{
+        font-size: 1.5rem;
+        width:60%;
+    }
+    .gridtwotable{
+      
+      
+        margin-right: 10rem;
+
+    }
+    
+    
+}
+@media screen and (max-width:768px) {
+   .illust{
+        margin-left: -0.5rem;
+      }
+    .freq{
+        font-size: 1.4rem;
+        width:80%;
+    }
+    .gridtwotable{
+        width:150%;
+      
+        margin-right: 10rem; }
+   
+    
+}
+@media screen and (max-width:457px) {
+    .illust{
+         margin-left: 1rem;
+         font-size: 1.5rem;
+       }
+     .freq{
+         font-size: 1.4rem;
+         width:80%;
+     }
+     .gridtwotable{
+         width:180%;
+       
+         margin-right: 10rem; }
+      
+    
+     
+ }
+ @media screen and (max-width:383px) {
+    .illust{
+         margin-left: -1rem;
+         font-size: 1.5rem;
+       }
+     .freq{
+        margin-left: -1rem;
+         font-size: 1.4rem;
+         width:80%;
+     }
+     .gridtwotable{
+         width:180%;
+         margin-left: -1rem;
+         margin-right: 10rem; }
+      
+    
+     
+ }
+@media screen and (max-width:1248px) {
+    .gridtwotable{
+        margin-left: -8rem;
+    }
+    .endmain{
+        margin-top: 10rem;
+      
+        width:110%;
+        margin-left: -2rem;
+    }
+    .end1{
+       
+        margin-left: -5rem;
+        
+    }
+    .end2{
+        width:150px; margin-left: 9rem;
+     
+    
+    }
+    .end3{
+        width:200px; margin-left: 3rem;
+       
+        width:150px; 
+    }
+    .quote{
+        background-color: white; margin-top: -4rem; padding-top: 12rem; padding-bottom: 12rem; 
+    }
+    
+    .quotegrid{
+        align-items: center;justify-content: center;
+        width:100%;
+
+
+    }
+
+    .otc33{
+        margin-left: -4rem;
+        width:60% ;
+     
+
+    }
+    .otcimg2{
+        width:110%;
+    }
+    .otc22{
+        width:40%
+    }
+    
+}
+@media screen and (max-width:768px) {
+
+    .otc33{
+        margin-left: -2rem;
+        width:100% ;
+     
+
+    }
+    .otcimg2{
+        width:90%;
+      
+    }
+    .otc22{
+        width:100%
+    }
+}
+@media screen and (max-width:992px){
+    .comp{
+        width:100%;
+       
+    }
+    .endmain{
+        margin-top: 10rem;
+        
+        width:105%;
+        margin-left: -2rem;
+    }
+    .end1{
+       
+        margin-left: -5rem;
+        
+    }
+    .end2{
+        width:150px; margin-left: 7rem;
+       
+    
+    }
+    .end3{
+        width:200px; margin-left: 2rem;
+       
+        width:150px; 
+    }    
+}
+
+@media screen and (max-width:890px) {
+   
+    .end2{
+        width:120px; margin-left: 5rem;
+      
+    }
+    .end3{
+     
+        width:120px; 
+    } 
+
+    .nav_group{
+        display: none;
+    }
+    .table{
+        width:80%;
+        margin-left: 5rem;
+
+    }
+    .row_item{
+      
+        margin-left: 1rem;
+        margin-right: 1rem;
+      
+      
+    }
+    
+}
+
+@media screen and (max-width:1200px)  {
+    .start{
+        font-size: 2rem;
+    }
+    .startdiv{
+        color: white; text-align: center;margin-top: -15rem;
+    }
+   
+    .otcimg{
+        margin-top: 4rem;
+        margin-left: 3rem;
+        width:110%
+        
+    }
+    .gridtwo{
+    
+        width:60%
+    }
+    .gridtwotable{
+        margin-left: -8rem;
+    }
+    .heroinputbutton{
+        font-size: 15px;padding: 1.2rem
+    }
+    .heroinput3{
+        margin-right: 0rem;
+    }
+    .heroinput{
+        margin-right: -4rem;
+    }
+    .herodiv{
+        font-size: 18px;
+    }
+    .herobuy{
+margin-left: 0rem;
+    }
+    .herosell{
+       margin-left: 5.5rem;
+    }
+    .herodots{
+        margin-left: 4rem;margin-bottom: -2rem;
+    }
+    
+}
+@media screen and (max-width:1080px)  {
+    .heroinputbutton{
+        font-size: 14px;padding: 1rem
+    }
+    .heroinput3{
+        margin-right: 1rem;
+    }
+    .heroinput{
+        margin-right: -5rem;
+    }
+    .herodiv{
+        font-size: 18px;
+    }
+   
+    .herosell{
+       margin-left: 4rem;
+    }
+    .herodots{
+        margin-left: 3rem;margin-bottom: -2rem;
+    }
+    .buydash{
+        width:80%
+    }
+}
+@media screen and (max-width:1008px)  {
+    .mainbox{
+        border: dashed 2px #D9E4EF;
+        width: 80%;
+        margin-left: 18rem;
+    }}
+
+@media screen and (max-width:1049px)  {
+   
+   
+    .startdiv{
+    margin-top: -13rem;
+    }
+    .gridtwo{
+    
+        width:60%;
+        
+    }
+    .gridtwotable{
+        margin-left: -15rem;
+    }
+    .heroinput3{
+        margin-right: -1rem;
+      
+    }
+    .heroinput{
+        margin-right: -7rem;
+    }
+
+ }
+@media screen and (max-width:955px) {
+    .pattern1{
+        display: none;
+    }
+    
+    .heroinputbutton{
+        font-size: 12px;padding: 1.2rem
+    }
+    .heroinput3{
+        margin-right: -3rem;
+    }
+    .heroinput{
+        margin-right: -8rem;
+    }
+   
+
+
+   
+    .herodiv{
+        font-size: 16px;
+    }
+    
+    .herosell{
+       margin-left: 1rem;
+    }
+    .herodots{
+        margin-left: 2rem;
+    }
+    .heroposter{
+   margin-left: 3rem;
+    }
+}
+@media screen and (max-width:881px) {
+    .start{
+        font-size: 2rem;
+    }
+    .startdiv{
+        margin-top: -12rem;
+    }
+    .quotegrid{
+        align-items: center;justify-content: center;
+        display: flex;
+        // flex-wrap: wrap;
+        flex-direction: column;
+    }
+   
+    .heroinputbutton{
+        font-size: 12px;padding: 1.2rem
+    }
+    .heroinput3{
+        margin-right: 0rem;
+        
+    }
+    .heroinput{
+        margin-right: -10rem;
+        width:115%
+    }
+
+   
+    .herodiv{
+        font-size: 16px;
+    }
+    .herobuy{
+        margin-left: -1rem;
+     }
+    .herosell{
+       margin-left: 0rem;
+    }
+    .herodots{
+        margin-left: .5rem;
+    }
+    .buydash{
+        width:50%
+    }
+
+    .heroinputt3{
+        font-size: 14px;
+        margin-right: -4rem;
+    }
+    .heroposter{
+        margin-left: 4rem;
+    }
+ 
+    
+}
+@media screen and (max-width:794px) {
+    .heading{
+        
+        margin-bottom: 1rem;
+        
+    }
+    .mainheading{
+        margin-top: 4rem;
+    }
+    .heroposter{
+        margin-left: 4rem;
+    }
+    .herobuy{
+        margin-left: -1rem;
+            }
+            .herosell{
+               margin-left: 1rem;
+            }
+            .buydash{
+                width:70%
+            } 
+            .herodots{
+                margin-left: .5rem;margin-bottom: -2rem;
+            }     
+   
+}
+@media screen and (max-width:768px) {
+    .comp{
+        width:40%;
+       
+    }
+    .endmain{
+        margin-top: 10rem;
+      
+        margin-left: 0rem;
+        width:100%
+    }
+    .end1{
+         margin-left: -5rem;
+        
+    }
+    .end2{
+        width:150px; margin-left: -4rem;
+      
+    
+    }
+    .end3{
+        width:200px; margin-left: 3rem;
+     
+        width:150px; 
+    }    
+    
+}
+@media screen and (max-width:760px) {
+    .start{
+        font-size: 1.5rem;
+    }
+    .startdiv{
+        margin-top: -8rem;
+    }
+    .trading{
+        margin-top: -2rem;
+    }
+    .otcimg{
+     
+        margin-top: 4rem;
+        margin-left: -1rem;
+        width:100%
+        
+    }
+    .otc2{
+        margin-left: -1rem;
+    }
+    .box{
+        width:85%
+    }
+    .heroinput{
+        margin-left: 2rem;
+        width:90%
+    }
+    .heroinput3{
+        margin-left: 1rem;
+        width:90%
+    }
+    .heading{
+        margin-left: 9rem;
+        margin-bottom: 1rem;
+        
+    }
+    .mainheading{
+        margin-top: 4rem;
+    }
+    .heroposter{
+        margin-left: 4rem;
+    }
+    .herobuy{
+        font-size: 1.5rem;margin-left: 3rem;
+    }
+            .herosell{
+               margin-left: 5rem;
+               font-size: 1.5rem;
+            }
+            .buydash{
+                width:70%
+            } 
+            .herodots{
+           
+                margin-left: 8rem;margin-bottom: -2rem;
+            }     
+   
+}
+@media screen and (max-width:700px) {
+    .otc22{
+        margin-left: -2rem;
+    }
+    .new{
+     
+        width:90%
+    }
+   
+    .heroinput{
+        margin-left: 2rem;
+        width:90%
+    }
+    .heroinput3{
+        margin-left: 1rem;
+        width:90%
+    }
+    .heading{
+        margin-left: 7rem;
+        margin-bottom: 1rem;
+        
+    }
+    .mainheading{
+        margin-top: 4rem;
+        width: 80%;
+    }
+    .heroposter{
+        margin-left: 3rem;
+    }
+    .herobuy{
+     margin-left: 1.5rem;
+    }
+            
+            .herodots{
+           
+                margin-left: 5rem;
+            }     
+   
+}
+@media screen and (max-width:600px) {
+    .table{
+        margin-left: 4rem;
+
+    }
+    .new{
+        width:110%;
+        margin-left: -4rem;
+    }
+    .heroposter{
+        margin-left: 1rem;
+    }
+    .herobuy{
+     margin-left: .5rem;
+     font-size: 1rem;
+    }
+    .herosell{
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
+            
+            .herodots{
+           
+                margin-left: 3.5rem;
+            }  
+}
+@media screen and (max-width:638px) {
+   
+    .end1{
+       
+        margin-left: -5rem;
+        width:110%
+        
+    }
+    .end2{
+        width:120px; margin-left: -4rem;
+       
+    
+    }
+    .end3{
+        margin-left: 4rem;
+      
+        width:120px; 
+    }    
+    
+}
+@media screen and (max-width:578px) {
+   
+    .end1{
+      
+        margin-left: -5rem;
+        width:115%
+        
+    }
+    .end2{
+        width:100px; margin-left: -4rem;
+       
+    }
+    .end3{
+        margin-left: 2rem;
+      
+        width:110px; 
+    }    
+    
+}
+@media screen and (max-width:484px) {
+   
+    .end1{
+      
+        margin-left: -4rem;
+        width:100%
+        
+    }
+    .end2{
+        width:100%; margin-left: -4rem;
+      
+    
+    }
+    .end3{
+        margin-left: -4rem;
+       
+        width:100%; 
+       
+    }    
+    
+}
+@media screen and (max-width:280px) {
+   
+    .end1{
+        margin-left: -4rem;
+        width:130%
+        
+    }
+    .end2{
+        width:140%; margin-left: -4rem;
+    
+    }
+    .end3{
+        margin-left: -4rem;
+        width:140%; 
+       
+    }    
+    
+}
+@media screen  and (max-width:560px)  {
+    .start{
+        font-size: 1.5rem;
+    }
+    .startdiv{
+        margin-top: -8rem;
+    }
+    .trading{
+        margin-top: -2rem;
+    }
+    .get{
+        font-size: 13px;
+    }
+    .clrbg{
+        height: 10em;}
+    .table{
+        
+        width:85%;
+        margin-left: 2.5rem;
+
+    }
+    .herobuy{
+        margin-left: 1.5rem;
+       
+       }
+    .herosell{
+        margin-left: 2rem;
+       
+       }
+    .herodots{
+           
+        margin-left: 4rem;
+    } 
+    .heroposter{
+      
+       width:90%;
+       margin-left: -.5rem;
+    }
+    
+}
+@media screen and (max-width:480px) {
+    .box{
+        width:100%;
+        margin-left: -2rem;
+    }
+    .ETHimg{
+        width:90%;
+    }
+    .table{
+        width:80%;
+        margin-left: 3rem;
+
+    }
+    .maintable{
+        font-size: smaller;
+    }
+    .tablemain{
+    font-weight: 650; font-size: 18px;
+}
+    
+    .new{
+        display: flex;
+        align-items: center;
+    }
+    .h1{
+      font-size: 2rem;
+    }
+    .mainheading{
+      
+    
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .heading{
+        margin-left: 1rem;
+        margin-bottom: 0rem;
+    }
+    .line-height-3{
+       width:105%;
+       margin-left: -2rem;
+    }
+    .buttoncontainer{
+        display: flex;
+        margin-left: -2rem;
+    }
+}
+@media screen and (max-width:470px) {
+    .ETHimg{
+        width:80%;
+    }
+    .ETHdiv{
+ margin-right: -1rem;   
+    }
+    .herobuy{
+        margin-left: 0rem;
+       
+       }
+    .heroposter{
+        margin-left: 1rem;
+    }
+    .herodots{
+           
+        margin-left: 2rem;
+    } 
+    .mainhero{
+
+        width:115%;
+        margin-left: -4rem;
+    }
+}
+@media screen and (max-width:420px) {
+    .otcline1{
+        font-size: 2rem;
+    }
+    .otcline2{
+        font-size: 14px;
+    }
+    .otc2{
+        margin-left: -2rem;
+    }
+      .new{
+        width:120%;
+        margin-left: -4.3rem;
+    }
+    .h1{
+        margin-left: -1rem;
+    }
+    .line-height-3{
+     
+        width:100%;
+      
+        font-size: 14px;
+       
+      margin-left: -1rem;
+
+     }
+     .buttoncontainer{
+         
+         display: flex;
+         margin-left: -2rem;
+     }
+
+}
+@media screen and (max-width:400px) {
+    .start{
+        font-size: 1.3rem;
+    }
+   
+    .pattern{
+        display: none;
+    }
+    .trade{
+        font-size:1rem;
+    }
+    .buttoncontainer{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 0.7rem;
+    }
+    .Otp{
+       margin-top: 1.5rem;
+       width:93%
+
+    }
+    .line-height-3{
+        margin-left: 0rem;
+    }
+    .h1{
+      font-size: 1.7rem;
+    }
+    .mainhero{
+        width:125%;
+        margin-left: -4.8rem;
+    }
+    .heroposter{
+        margin-left: 0rem;
+        width:100%
+    }
+    .heroinput,.heroinput3{
+        margin-left: -.5rem;
+    }
+    .table{
+        width:70%;
+        margin-left: 3.5rem;
+
+    }
+    .maintable{
+        font-size: x-small;
+    }
+
+    
+}
+@media screen and (max-width:330px) {
+   
+    .startdiv{
+        margin-top: -10rem;
+    }
+   
+    .clrbg{
+        height: 14em;}
+    .twitter{
+        width:10%
+    }
+  
+    .otc2{
+        margin-left: -5rem;
+        width: 135%;
+    }
+    .otc3{
+        margin-left: -4rem;
+        width: 135%;
+    }
+    .otc22{
+        margin-left: -5rem;
+        width: 135%;
+    }
+    .otc33{
+        margin-left: -5rem;
+        width: 135%;
+    }
+
+    .table{
+        width:70%;
+        margin-left: 3rem;
+
+    }
+    .maintable{
+        font-size: xx-small;
+    }
+    
+}
+@media screen and (max-width:320px) {
+    .buttoncontainer{
+       
+        margin-left: 0rem;
+    }
+  .new{
+      width:130%;
+    
+  }
+  .mainhero{
+      width:135%
+  }
+  .herobuy{
+      margin-left: -1rem;
+  }
+  .herodots{
+      margin-left: 0rem;
+  }
+  .table{
+    width:60%;
+    margin-left: 3.8rem;
+}
+.maintable{
+    font-size: xx-small;
+}
+.row_item{
+    margin-left: .5rem;
+}
+  
+
+
+}
+
+
